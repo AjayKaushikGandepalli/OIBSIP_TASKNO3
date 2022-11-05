@@ -150,13 +150,6 @@ function createcompletedtask(title, content, date, cdm, cdn){
     const ctitle2 = document.createElement("b");
     ctitle2.innerHTML = title;
     ctitle1.appendChild(ctitle2);
-    const cdate = document.createElement("span");
-    cdate.classList.add("completedtaskdate");
-    cmain.appendChild(cdate);
-    cdate.innerHTML = "DATE : ";
-    const cdate1 = document.createElement("span");
-    cdate.appendChild(cdate1);
-    cdate1.innerHTML = date;
     const ccontent = document.createElement("div");
     ccontent.classList.add("completedtaskcontent");
     ctask.appendChild(ccontent);
